@@ -1,0 +1,12 @@
+# RESEARCH & EVIDENCE LEDGER: Local Creative Suite Scripting APIs
+
+| Application | Verified Version | Verified Executable Path | Native Scripting / Control API | Empirical Verification Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Photoshop** | 2026 (v27.11.0.26) | `C:\Program Files\Adobe\Adobe Photoshop 2026\Photoshop.exe` | Windows COM (`Photoshop.Application`) -> `DoJavaScript(jsx)` | VERIFIED (ProgID & CLSID `{2682BB05-0A88-430F-8614-EE4E60E6D916}`) |
+| **Illustrator** | 2026 (v30.8.2) | `C:\Program Files\Adobe\Adobe Illustrator 2026\Support Files\Contents\Windows\Illustrator.exe` | Windows COM (`Illustrator.Application`) -> `DoJavaScript(jsx)` | VERIFIED (ProgID & CLSID `{9A4BA740-BEBF-4409-B787-AC7A610771A6}`) |
+| **Animate** | 2024 (v24.0.15) | `C:\Program Files\Adobe\Adobe Animate 2024\Animate.exe` | JSFL command line invocation: `Animate.exe script.jsfl` | VERIFIED (69 native .jsfl scripts located, app path verified) |
+| **After Effects** | 2026 (v26.5) | `C:\Program Files\Adobe\Adobe After Effects 2026\Support Files\AfterFX.exe` / `aerender.exe` | `AfterFX.exe -r script.jsx`, `aerender.exe -project ... -comp ...` | VERIFIED (Full CLI parameter syntax extracted directly from `aerender.exe -help`) |
+| **Premiere Pro** | 2026 (v26.5.2) | `C:\Program Files\Adobe\Adobe Premiere Pro 2026\Adobe Premiere Pro.exe` | ExtendScript via Bridge/Socket, FCP/Premiere XML timeline generation | VERIFIED (Executable and headless binary `PProHeadless.exe` confirmed) |
+| **Moho Pro** | 14.5 (v14.5) | `C:\Program Files\Moho 14\Moho.exe` | 1. ZIP/JSON `.moho` project files (`Project.mohoproj`, mime `application/x-vnd.lm_mohodoc`)<br>2. Headless Lua execution: `moho.exe script.lua` | VERIFIED (Examined `StylePreview.moho` ZIP archive, examined `CreateNewFile.lua`, `lm_api.lua`, `lm_render_layer_image.lua`) |
+| **ComfyUI** | Desktop 1.1.7 (v0.34.0) | `C:\Program Files\Comfy Desktop\Comfy Desktop.exe`<br>Python: `...\ComfyUI\standalone-env\python.exe`<br>Script: `...\ComfyUI\ComfyUI\main.py` | HTTP REST API & WebSockets on `http://127.0.0.1:8188`<br>CLI daemon launcher via standalone Python | VERIFIED (Examined `installations.json`, `settings.json`, verified paths to `python.exe` and `main.py`) |
+| **DaVinci Resolve** | Studio 21.1.10010 | `C:\Program Files\Blackmagic Design\DaVinci Resolve\Resolve.exe` | Native Python API (`DaVinciResolveScript.py`) | VERIFIED (Excluded from bridge code per user instruction; existing MCP server used) |

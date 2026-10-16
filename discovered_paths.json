@@ -1,0 +1,174 @@
+{
+  "app_paths_registry": {
+    "Photoshop.exe": "C:\\Program Files\\Adobe\\Adobe Photoshop 2026\\Photoshop.exe",
+    "Illustrator.exe": "C:\\Program Files\\Adobe\\Adobe Illustrator 2026\\Support Files\\Contents\\Windows\\Illustrator.exe",
+    "Animate.exe": "C:\\Program Files\\Adobe\\Adobe Animate 2024\\Animate.exe",
+    "AfterFX.exe": "C:\\Program Files\\Adobe\\Adobe After Effects 2026\\Support Files\\AfterFX.exe",
+    "Adobe Premiere Pro.exe": "\"C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe\""
+  },
+  "uninstall_registry": {
+    "Comfy Desktop 1.1.7": {
+      "version": "1.1.7",
+      "location": null,
+      "uninstall": "\"C:\\Program Files\\Comfy Desktop\\Uninstall Comfy Desktop.exe\" /allusers"
+    },
+    "DaVinci Resolve": {
+      "version": "21.1.10010",
+      "location": "",
+      "uninstall": "MsiExec.exe /X{0BE80C4E-34AB-4190-BAE0-59EB40943BDB}"
+    },
+    "Microsoft .NET Host FX Resolver - 10.0.11 (x64)": {
+      "version": "80.44.56884",
+      "location": "",
+      "uninstall": "MsiExec.exe /X{208D3FC0-B592-4221-8E53-6B21621E9951}"
+    },
+    "Moho 14.5": {
+      "version": "14.5",
+      "location": "C:\\Program Files\\Moho 14\\",
+      "uninstall": "\"C:\\Program Files\\Moho 14\\unins000.exe\""
+    },
+    "DaVinci Resolve Renderer": {
+      "version": "21.1.10010",
+      "location": "",
+      "uninstall": "MsiExec.exe /I{D1275DD9-4874-4365-8A4E-069AFD5002AA}"
+    },
+    "DaVinci Resolve Control Panels": {
+      "version": "2.3.5.0",
+      "location": "",
+      "uninstall": "MsiExec.exe /X{EDA8A73C-05DC-49ED-9DF5-D29F9317307A}"
+    },
+    "Adobe After Effects 2026": {
+      "version": "26.5",
+      "location": "C:\\Program Files\\Adobe",
+      "uninstall": "\"C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Uninstaller.exe\" --uninstall=1 --sapCode=AEFT --productVersion=26.5 --productPlatform=win64 --productAdobeCode={AEFT-26.5-64-ADBEADBEADBEADBEADBEADB} --productName=\"After Effects\" --mode=1"
+    },
+    "Adobe Animate 2024": {
+      "version": "24.0.15",
+      "location": "C:\\Program Files\\Adobe\\Adobe Animate 2024",
+      "uninstall": "\"C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Uninstaller.exe\" --uninstall=1 --sapCode=FLPR --productVersion=24.0.15 --productPlatform=win64 --productAdobeCode={FLPR-24.0.15-64-ADBEADBEADBEADBEADBE} --productName=\"Animate\" --mode=1"
+    },
+    "Adobe Illustrator 2026": {
+      "version": "30.8.2",
+      "location": "C:\\Program Files\\Adobe\\Adobe Illustrator 2026",
+      "uninstall": "\"C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Uninstaller.exe\" --uninstall=1 --sapCode=ILST --productVersion=30.8.2 --productPlatform=win64 --productAdobeCode={ILST-30.8.2-64-ADBEADBEADBEADBEADBEA} --productName=\"Illustrator\" --mode=1"
+    },
+    "Adobe Photoshop 2026": {
+      "version": "27.11.0.26",
+      "location": "C:\\Program Files\\Adobe\\Adobe Photoshop 2026",
+      "uninstall": "\"C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Uninstaller.exe\" --uninstall=1 --sapCode=PHSP --productVersion=27.11 --productPlatform=win64 --productAdobeCode={PHSP-27.11-64-ADBEADBEADBEADBEADBEAD} --productName=\"Photoshop\" --mode=1"
+    },
+    "Adobe Premiere Pro 2026": {
+      "version": "26.5.2",
+      "location": "C:\\Program Files\\Adobe",
+      "uninstall": "\"C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\HDBox\\Uninstaller.exe\" --uninstall=1 --sapCode=PPRO --productVersion=26.5.2 --productPlatform=win64 --productAdobeCode={PPRO-26.5.2-64-ADBEADBEADBEADBEADBEA} --productName=\"Premiere\" --mode=1"
+    }
+  },
+  "start_menu_shortcuts": {
+    "Adobe After Effects 2026.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe After Effects 2026.lnk",
+    "Adobe Animate 2024.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Animate 2024.lnk",
+    "Adobe Illustrator 2026.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Illustrator 2026.lnk",
+    "Adobe Photoshop 2026.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Photoshop 2026.lnk",
+    "Adobe Premiere Pro 2026.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Adobe Premiere Pro 2026.lnk",
+    "Comfy Desktop.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Comfy Desktop.lnk",
+    "Moho 14.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Moho 14.lnk",
+    "DaVinci Resolve.lnk": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Blackmagic Design\\DaVinci Resolve\\DaVinci Resolve.lnk"
+  },
+  "adobe_folders": {
+    "Adobe After Effects 2026": {
+      "path": "C:\\Program Files\\Adobe\\Adobe After Effects 2026",
+      "files": [],
+      "support_files_exes": [
+        "Adobe Analysis Server.exe",
+        "aerender.exe",
+        "AfterFX.exe",
+        "CRWindowsClientService.exe",
+        "dvaapprelauncher.exe",
+        "dynamiclinkmanager.exe",
+        "GPUSniffer.exe",
+        "TeamProjectsLocalHub.exe"
+      ]
+    },
+    "Adobe Animate 2024": {
+      "path": "C:\\Program Files\\Adobe\\Adobe Animate 2024",
+      "files": [
+        "Animate.exe",
+        "createprojector.exe",
+        "CRWindowsClientService.exe",
+        "HeadlessAnimateApp.exe",
+        "sketchConfigTest.exe"
+      ]
+    },
+    "Adobe Creative Cloud Experience": {
+      "path": "C:\\Program Files\\Adobe\\Adobe Creative Cloud Experience",
+      "files": [
+        "CCXProcess.exe"
+      ]
+    },
+    "Adobe Illustrator 2026": {
+      "path": "C:\\Program Files\\Adobe\\Adobe Illustrator 2026",
+      "files": [],
+      "support_files_exes": [],
+      "contents_win_exes": [
+        "AIMonitor.exe",
+        "AIRobin.exe",
+        "AISafeModeLauncher.exe",
+        "AISniffer.exe",
+        "CRWindowsClientService.exe",
+        "Illustrator.exe",
+        "IllustratorDiagnosys.exe"
+      ]
+    },
+    "Adobe Photoshop 2026": {
+      "path": "C:\\Program Files\\Adobe\\Adobe Photoshop 2026",
+      "files": [
+        "convert.exe",
+        "CRWindowsClientService.exe",
+        "flitetranscoder.exe",
+        "node.exe",
+        "Photoshop Backup.exe",
+        "Photoshop.exe",
+        "PhotoshopPrefsManager.exe",
+        "pngquant.exe",
+        "sniffer.exe",
+        "XPUInfoIPC.exe"
+      ]
+    },
+    "Adobe Premiere Pro 2026": {
+      "path": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026",
+      "files": [
+        "Adobe Premiere Pro Backup.exe",
+        "Adobe Premiere Pro.exe",
+        "CRWindowsClientService.exe",
+        "dvaapprelauncher.exe",
+        "dvaaudiofilterscan.exe",
+        "dynamiclinkmanager.exe",
+        "GPUSniffer.exe",
+        "Mole`s Smart Version Patch Constructor 2.2 [Ru].exe",
+        "PProHeadless.exe",
+        "TeamProjectsLocalHub.exe"
+      ]
+    },
+    "Common": {
+      "path": "C:\\Program Files\\Adobe\\Common",
+      "files": []
+    }
+  },
+  "moho": {
+    "installations": [],
+    "custom_content_docs": [],
+    "appdata_paths": [
+      "C:\\Users\\jofin\\AppData\\Roaming\\Lost Marble"
+    ]
+  },
+  "comfy": {
+    "candidates_found": [],
+    "api_status": {
+      "online": false,
+      "error": "<urlopen error timed out>"
+    }
+  },
+  "davinci": {
+    "resolve_exe": "C:\\Program Files\\Blackmagic Design\\DaVinci Resolve\\Resolve.exe",
+    "scripting_module": "C:\\ProgramData\\Blackmagic Design\\DaVinci Resolve\\Support\\Developer\\Scripting\\Modules\\DaVinciResolveScript.py"
+  }
+}

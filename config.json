@@ -1,0 +1,75 @@
+{
+  "system": {
+    "os": "Windows",
+    "python": "3.11.9",
+    "ram_gb": 16,
+    "gpu": "NVIDIA GeForce RTX 3080 (10 GB VRAM)"
+  },
+  "applications": {
+    "photoshop": {
+      "name": "Adobe Photoshop 2026",
+      "version": "27.11.0.26",
+      "exe": "C:\\Program Files\\Adobe\\Adobe Photoshop 2026\\Photoshop.exe",
+      "com_progid": "Photoshop.Application",
+      "clsid": "{2682BB05-0A88-430F-8614-EE4E60E6D916}",
+      "control_method": "COM_JSX"
+    },
+    "illustrator": {
+      "name": "Adobe Illustrator 2026",
+      "version": "30.8.2",
+      "exe": "C:\\Program Files\\Adobe\\Adobe Illustrator 2026\\Support Files\\Contents\\Windows\\Illustrator.exe",
+      "com_progid": "Illustrator.Application",
+      "clsid": "{9A4BA740-BEBF-4409-B787-AC7A610771A6}",
+      "control_method": "COM_JSX"
+    },
+    "animate": {
+      "name": "Adobe Animate 2024",
+      "version": "24.0.15",
+      "exe": "C:\\Program Files\\Adobe\\Adobe Animate 2024\\Animate.exe",
+      "headless_exe": "C:\\Program Files\\Adobe\\Adobe Animate 2024\\HeadlessAnimateApp.exe",
+      "control_method": "CLI_JSFL"
+    },
+    "after_effects": {
+      "name": "Adobe After Effects 2026",
+      "version": "26.5",
+      "afterfx_exe": "C:\\Program Files\\Adobe\\Adobe After Effects 2026\\Support Files\\AfterFX.exe",
+      "aerender_exe": "C:\\Program Files\\Adobe\\Adobe After Effects 2026\\Support Files\\aerender.exe",
+      "control_method": "CLI_JSX_AERENDER"
+    },
+    "premiere": {
+      "name": "Adobe Premiere Pro 2026",
+      "version": "26.5.2",
+      "exe": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+      "headless_exe": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\PProHeadless.exe",
+      "control_method": "EXTENDSCRIPT_XML"
+    },
+    "moho": {
+      "name": "Moho Pro 14.5",
+      "version": "14.5",
+      "exe": "C:\\Program Files\\Moho 14\\Moho.exe",
+      "scripts_dir": "C:\\Program Files\\Moho 14\\Resources\\Support\\Scripts",
+      "project_format": "zip_json",
+      "control_method": "CLI_LUA_AND_JSON"
+    },
+    "comfyui": {
+      "name": "Comfy Desktop",
+      "version": "1.1.7",
+      "backend_version": "v0.34.0",
+      "desktop_exe": "C:\\Program Files\\Comfy Desktop\\Comfy Desktop.exe",
+      "python_exe": "C:\\Users\\jofin\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\standalone-env\\python.exe",
+      "main_py": "C:\\Users\\jofin\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI\\main.py",
+      "models_dir": "C:\\Users\\jofin\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\models",
+      "input_dir": "C:\\Users\\jofin\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\input",
+      "output_dir": "C:\\Users\\jofin\\AppData\\Local\\Comfy-Desktop\\ComfyUI-Shared\\output",
+      "api_url": "http://127.0.0.1:8188",
+      "ws_url": "ws://127.0.0.1:8188/ws",
+      "control_method": "HTTP_WEBSOCKET_REST"
+    },
+    "davinci_resolve": {
+      "name": "DaVinci Resolve Studio",
+      "version": "21.1.10010",
+      "status": "Managed by active DaVinci Resolve MCP Server",
+      "control_method": "MCP_SERVER"
+    }
+  }
+}

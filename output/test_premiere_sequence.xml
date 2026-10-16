@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmeml version="4">
+  <project>
+    <name>Action_Scene_01_Project</name>
+    <children>
+      <sequence id="sequence-1">
+        <name>Action_Scene_01</name>
+        <duration>144</duration>
+        <rate>
+          <timebase>24</timebase>
+          <ntsc>FALSE</ntsc>
+        </rate>
+        <media>
+          <video>
+            <format>
+              <samplecharacteristics>
+                <width>3840</width>
+                <height>2160</height>
+                <pixelaspectratio>square</pixelaspectratio>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+              </samplecharacteristics>
+            </format>
+            <track>
+              <clipitem id="vclip-1">
+                <name>Scene_01_Background</name>
+                <duration>72</duration>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>0</start>
+                <end>72</end>
+                <in>0</in>
+                <out>72</out>
+                <file id="file-vclip-1">
+                  <name>test_character_vector.svg</name>
+                  <pathurl>file://localhost/C:/Users/jofin/.gemini/antigravity/scratch/creative_pipeline_bridge/output/test_character_vector.svg</pathurl>
+                  <rate>
+                    <timebase>24</timebase>
+                    <ntsc>FALSE</ntsc>
+                  </rate>
+                  <duration>72</duration>
+                </file>
+              </clipitem>
+              <clipitem id="vclip-2">
+                <name>Scene_01_Character_Rig</name>
+                <duration>72</duration>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>72</start>
+                <end>144</end>
+                <in>0</in>
+                <out>72</out>
+                <file id="file-vclip-2">
+                  <name>test_character_rig.psd</name>
+                  <pathurl>file://localhost/C:/Users/jofin/.gemini/antigravity/scratch/creative_pipeline_bridge/output/test_character_rig.psd</pathurl>
+                  <rate>
+                    <timebase>24</timebase>
+                    <ntsc>FALSE</ntsc>
+                  </rate>
+                  <duration>72</duration>
+                </file>
+              </clipitem>
+            </track>
+          </video>
+          <audio>
+            <track>
+              <clipitem id="aclip-1">
+                <name>Voiceover_Track</name>
+                <duration>144</duration>
+                <rate>
+                  <timebase>24</timebase>
+                  <ntsc>FALSE</ntsc>
+                </rate>
+                <start>0</start>
+                <end>144</end>
+                <in>0</in>
+                <out>144</out>
+                <file id="file-aclip-1">
+                  <name>voiceover.wav</name>
+                  <pathurl>file://localhost/C:/Users/jofin/.gemini/antigravity/scratch/creative_pipeline_bridge/output/voiceover.wav</pathurl>
+                  <rate>
+                    <timebase>24</timebase>
+                    <ntsc>FALSE</ntsc>
+                  </rate>
+                  <duration>144</duration>
+                </file>
+              </clipitem>
+            </track>
+          </audio>
+        </media>
+      </sequence>
+    </children>
+  </project>
+</xmeml>
