@@ -70,6 +70,47 @@
       "version": "21.1.10010",
       "status": "Managed by active DaVinci Resolve MCP Server",
       "control_method": "MCP_SERVER"
+    },
+    "voice": {
+      "name": "SWivid/F5-TTS Voice Engine",
+      "model": "F5TTS_v1_Base",
+      "device": "cuda",
+      "python_exe": "C:\\Users\\jofin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "checkpoint_path": "D:\\AI_Tools\\huggingface\\hub\\models--SWivid--F5-TTS\\snapshots\\84e5a410d9cead4de2f847e7c9369a6440bdfaca\\F5TTS_v1_Base\\model_1250000.safetensors",
+      "control_method": "LOCAL_NEURAL_TTS"
+    },
+    "topaz_video_ai": {
+      "name": "Topaz Video AI Pro",
+      "version": "7.1.6",
+      "exe": "C:\\Program Files\\Topaz Labs LLC\\Topaz Video AI\\Topaz Video AI.exe",
+      "ffmpeg_cli": "C:\\Program Files\\Topaz Labs LLC\\Topaz Video AI\\ffmpeg.exe",
+      "control_method": "CLI_FFMPEG_AND_UI"
+    },
+    "izotope_rx": {
+      "name": "iZotope RX 12 Audio Editor",
+      "version": "12.0 Advanced",
+      "exe": "C:\\Program Files\\iZotope\\RX 12 Audio Editor\\win64\\iZotope RX 12 Audio Editor.exe",
+      "control_method": "STANDALONE_AND_VST3"
+    },
+    "soundly": {
+      "name": "Soundly SFX Manager",
+      "exe": "C:\\Program Files\\Soundly\\Soundly.exe",
+      "vst3": "C:\\Program Files\\Common Files\\VST3\\SoundlyMonitor.vst3",
+      "control_method": "DESKTOP_APP_AND_VST3"
+    },
+    "creative_suite_hub": {
+      "desktop_dir": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite",
+      "plugins_dir": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins",
+      "installers_dir": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Installers",
+      "plugins": {
+        "neat_video": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Neat_Video_Pro_Resolve",
+        "fabfilter": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\FabFilter_Total_Bundle",
+        "geolayers_3": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\GEOlayers_3",
+        "overlord": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Battle_Axe_Overlord",
+        "boris_sapphire": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Boris_FX_Sapphire",
+        "boris_mocha_pro": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Boris_FX_Mocha_Pro",
+        "waves_ultimate": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Waves_Ultimate_2026"
+      }
     }
   }
 }

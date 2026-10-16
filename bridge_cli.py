@@ -39,6 +39,7 @@ def cmd_test_all(args):
         ("Moho Pro", "tests.test_moho", "test_moho"),
         ("After Effects", "tests.test_aftereffects", "test_aftereffects"),
         ("Premiere Pro", "tests.test_premiere", "test_premiere"),
+        ("F5-TTS Voice", "tests.test_voice", "test_voice"),
     ]
     results = {}
     for name, module_path, func_name in tests:

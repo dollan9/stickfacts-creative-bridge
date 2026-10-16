@@ -84,12 +84,10 @@ class AnimateTool:
 
     def execute_jsfl(self, jsfl_path: Path, timeout: float = 30.0) -> subprocess.CompletedProcess:
         """
-        Executes JSFL script via Animate.exe with official flags --run-jsfl and -AlwaysRunJSFL.
+        Executes JSFL script directly via Animate.exe by passing script path as argument.
         """
         cmd = [
             str(self.exe_path),
-            "--run-jsfl",
-            str(jsfl_path.resolve()),
-            "-AlwaysRunJSFL"
+            str(jsfl_path.resolve())
         ]
         return subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)

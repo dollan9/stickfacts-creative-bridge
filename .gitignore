@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+.system_generated/
+
+# Scratch and test files
+test_*.wav
+output/test_*.wav
+output/f5_clean_test.wav
+output/f5_perfect_test.wav
+output/f5_viral_shorts_v2.wav
+output/kokoro_studio_test.wav
+output/test_transparent_hero.png
+output/hero_isolated_clean.png
+output/test_header.moho
+output/test_filter_*.wav
+
+# IDE
+.idea/
+.vscode/
+*.swp
