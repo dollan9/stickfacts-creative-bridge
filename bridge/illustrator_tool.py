@@ -32,6 +32,14 @@ class IllustratorTool:
             raise RuntimeError(f"Failed to connect to Illustrator via COM ({self.progid}): {last_err}")
         return self._app
 
+    def quit_app(self):
+        if self._app is not None:
+            try:
+                self._app.Quit()
+            except Exception:
+                pass
+            self._app = None
+
     def execute_jsx(self, jsx_body: str) -> Any:
         app = self.get_app()
         full_jsx = f"""
