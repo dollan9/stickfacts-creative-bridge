@@ -99,17 +99,17 @@
       "control_method": "DESKTOP_APP_AND_VST3"
     },
     "creative_suite_hub": {
-      "desktop_dir": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite",
-      "plugins_dir": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins",
-      "installers_dir": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Installers",
+      "desktop_dir": "C:\\Users\\jofin\\Desktop\\Editing",
+      "plugins_dir": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins",
+      "installers_dir": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\Installers",
       "plugins": {
-        "neat_video": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Neat_Video_Pro_Resolve",
-        "fabfilter": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\FabFilter_Total_Bundle",
-        "geolayers_3": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\GEOlayers_3",
-        "overlord": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Battle_Axe_Overlord",
-        "boris_sapphire": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Boris_FX_Sapphire",
-        "boris_mocha_pro": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Boris_FX_Mocha_Pro",
-        "waves_ultimate": "C:\\Users\\jofin\\Desktop\\StickFacts_Creative_Suite\\Plugins\\Waves_Ultimate_2026"
+        "neat_video": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\Neat_Video_Pro_Resolve",
+        "fabfilter": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\FabFilter_Total_Bundle",
+        "geolayers_3": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\GEOlayers_3",
+        "overlord": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\Battle_Axe_Overlord",
+        "boris_sapphire": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\Boris_FX_Sapphire",
+        "boris_mocha_pro": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\Boris_FX_Mocha_Pro",
+        "waves_ultimate": "C:\\Users\\jofin\\Desktop\\Editing\\Plugins\\Waves_Ultimate_2026"
       }
     }
   }
